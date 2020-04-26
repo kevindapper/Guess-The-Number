@@ -1,0 +1,123 @@
+html{
+	margin: 0;
+	padding: 0;
+	background-color: #98C377;
+}
+#container
+{
+	
+	height: 1000px;
+	font-size: 20px;
+	color: white;
+	font-size: 22px;
+	user-select: none;
+	font-family: 'Titillium Web', sans-serif;
+  
+}
+#hint
+{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#hint div:hover
+{
+	color: red;
+}
+#inGame
+{
+	text-align: center;
+	margin-top: 20px;
+}
+#newGame 
+{
+	text-align: center;
+}
+#newGame button
+{
+	font-size: 18px;
+}
+span
+{
+	font-size: 17px;
+}
+button
+{
+	background-color: white;
+	border: none;
+	width: 115px;
+	height: 40px;
+	transition-duration: 0.4s;
+	color: #98C377;
+	font-size: 20px;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	outline: none;
+}
+button:hover
+{
+	width: 135px;
+}
+#hint:hover
+{
+	width: 115px;
+}
+#new
+{
+	width: 130px;
+}
+#new:hover
+{
+	width: 160px;
+}
+#numbersUsed
+{
+	float: left;
+	margin-left: 10px;
+}
+#attempts
+{
+	float: right;
+	margin-right: 10px;
+}
+#numbersUsed, #attempts
+{
+	margin-top: 10px;
+}
+#title
+{
+	text-align: center;
+}
+p 
+{
+	text-align: center;
+	clear: both;
+	padding-top: 40px;
+}
+img
+{
+	margin-bottom: 10px;
+}
+#input
+{
+	text-align: center;
+}
+#userChoice
+{
+	text-align: center;
+	border: none;
+	height: 20px;
+}
+.hide
+{
+	opacity: 0;
+	transition-duration: 0.7s;
+}
+.show
+{
+	transition-duration: 0.7s;
+	opacity: 1;
+}
+
+@media (max-width: 375px){
+	
+}

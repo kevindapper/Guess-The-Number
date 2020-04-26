@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Guessing Game</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body onload="play()">
+	<div id="container">
+	  <div id="numbersUsed">
+		guessed:<br><span id="guessedNumbers"></span>
+	  </div>
+	  <div id="attempts">
+		attempt: <span id="numberAttempt"></span>
+	  </div>
+	  <div id="title">
+		<p id="prompt">
+		  guess a number between 1 and 99
+		</p>
+		<img id="response" src="img/start.png" alt="" height="40" width="40">
+	  </div>
+	  <div id="input">
+		<input type="text" id="userChoice" name="input">
+	  </div>
+	  <div id="inGame" class="show">
+		<button id="submit" onclick="checkGuess()">guess!</button>
+		<button id="hint">hint</button>
+	  </div>
+	  <div id="newGame">
+		<button id="new" class="hide" onclick="play()">New Game</button>
+	  </div>
+	</div>
+	</body>
+</html>
